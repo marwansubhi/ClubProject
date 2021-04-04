@@ -10,7 +10,7 @@ import org.junit.jupiter.api.BeforeAll;
 
 public abstract class TestBase {
 
-    protected static String owner = "marwansubhi";
+    protected static String owner = "yourusername";
     protected static String repo = "bermuda_investor.emma";
     @Before
     public  void setup(){
