@@ -59,21 +59,8 @@ public class GamesPerYearTest extends GamesPerYearBaseTest {
 
         System.out.println("getNumberOfGoals(\"Norwich City\",2013) = " + getNumberOfGoals("Norwich City", 2013));
 
+        System.out.println("getNumberOfGoals(\"Chelsea\",2015) = " + getNumberOfGoals("Arsenal", 2012));
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
