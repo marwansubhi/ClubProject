@@ -43,6 +43,29 @@ public class FloatingMenuTest {
             Assert.assertTrue(fl.floatingBar.isDisplayed());
         }
 
+
+
+        // To refresh browser window using Javascript
+        js.executeScript("history.go(0)");
+
+
+        //  To get innertext of the entire webpage in Selenium
+        String sText =  js.executeScript("return document.documentElement.innerText;").toString();
+        System.out.println(sText);
+
+
+        //  To get the Title of our webpage
+        String sText1 =  js.executeScript("return document.title;").toString();
+        System.out.println(sText1);
+
+        // To get the domain
+        String sText2 =  js.executeScript("return document.domain;").toString();
+        System.out.println(sText2);
+
+        //  To get the URL of a webpage
+        String sText3 =  js.executeScript("return document.URL;").toString();
+        System.out.println(sText3);
+
     }
 
     @Test
@@ -67,7 +90,9 @@ public class FloatingMenuTest {
                 if (arr[i]+arr[j]==target) System.out.println(i + "  "+j);
             }
         }
+        char a = 5;
 
+        System.out.println();
 
     }
 }
