@@ -1,6 +1,7 @@
 package githubAssignment.tests;
 
 import githubAssignment.pages.DynamicContent;
+import org.json.simple.JSONObject;
 import org.junit.Assert;
 import org.junit.Test;
 import utilities.BrowserUtils;
@@ -31,6 +32,10 @@ public class DynamicContentTest {
         Assert.assertNotEquals(expectedT1, dc.firstText.getText());
         Assert.assertNotEquals(expectedT2, dc.secondText.getText());
         Assert.assertNotEquals(expectedT3, dc.thirdText.getText());
+
+
+
+
 
 
 
